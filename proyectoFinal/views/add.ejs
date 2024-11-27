@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/stylesadd.css">
+    <title>Mi Proyecto Final de PW2</title>
+</head>
+<body>
+    <div id="main-container"></div>
+    <div class="form-wrapper">
+        <div>
+            <form action="/add" method="post">
+                <div class="form-container">
+                    <h2 class="form-title">Agregar Usuario</h2>
+                    <br>
+                    <div class="input-group">
+                        <label for="user-name" class="label">Nombre:</label>
+                        <input type="text" id="user-name" name="name" required class="input-field">
+                    </div>
+                    <br>
+                    <div class="input-group">
+                        <label for="user-email" class="label">Correo:</label>
+                        <input type="email" id="user-email" name="email" required class="input-field">
+                    </div>
+                    <br>
+                    <div class="button-group">
+                        <button type="submit" class="submit-button">Registrar</button>
+                        <a href="/"><button type="button" class="cancel-button">Cancelar</button></a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
